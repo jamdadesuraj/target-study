@@ -1,0 +1,301 @@
+.instuate-card {
+  background: #d2d4d321 !important;
+  border: 1px dotted #000 !important;
+  cursor: pointer !important;
+}
+.instuate-card:hover {
+  background: #47d3a069 !important;
+}
+
+.wm-box-service ul li:hover .wm-box-service-wrap p {
+  color: #fff;
+}
+.wm-box-service ul li:hover .wm-box-service-wrap h6 a {
+  color: #fff;
+}
+.wm-box-service a:hover {
+  color: #fff !important;
+}
+
+/* exam */
+
+.exam-section {
+  background: #f7f7f7;
+}
+
+.exam-view-btn {
+  background: #47d3a0 !important;
+  color: #fff !important;
+}
+
+/* colleges */
+.colleges-section {
+  margin-top: 5rem;
+  height: 200px;
+  margin-bottom: 10rem;
+}
+
+/* alert */
+.alert-video-card {
+  height: 300px;
+  margin-bottom: 2rem;
+}
+.alert-video-card {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+
+@media (max-width: 749px) {
+  .alert-video-card {
+    height: 150px;
+    margin-bottom: 2rem;
+  }
+}
+
+/* career  */
+.career-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.career-card-child {
+  padding: 20px;
+  text-align: center;
+  border-left: 1px solid #3333;
+  border-bottom: 1px solid #3333;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.career-card-child img {
+  width: 80px;
+  height: 80px;
+}
+
+.career-card-child:hover {
+  box-shadow: 0 0 10px #3333;
+}
+
+.career-card-child:hover a {
+  text-decoration: none;
+  color: #47d3a0 !important;
+}
+
+.career-card-child:first-child {
+  border-left: none !important;
+}
+.career-card-child:nth-child(6) {
+  border-left: none !important;
+}
+.career-card-child:nth-child(8) {
+  box-shadow: 0 0 10px #3333;
+}
+.career-card-child:nth-child(11) {
+  border-left: none !important;
+  border-bottom: none !important;
+}
+.career-card-child:nth-child(12) {
+  border-bottom: none !important;
+}
+.career-card-child:nth-child(13) {
+  border-bottom: none !important;
+}
+.career-card-child:nth-child(14) {
+  border-bottom: none !important;
+}
+.career-card-child:nth-child(15) {
+  border-bottom: none !important;
+}
+
+@media (max-width: 999px) and (min-width: 750px) {
+  .career-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+  .career-card-child:nth-child(2n + 1) {
+    border-left: 1px solid #3333;
+  }
+
+  .career-card-child:nth-last-child(-n + 2) {
+    border-bottom: none;
+  }
+}
+
+@media (max-width: 749px) {
+  .career-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+  .career-card-child {
+    border-left: 1px solid #3333;
+  }
+  .career-card-child:nth-child(3) {
+    border-left: none;
+  }
+  .career-card-child:nth-child(5) {
+    border-left: none;
+  }
+  .career-card-child:nth-child(6) {
+    border-left: 1px solid #3333 !important;
+  }
+  .career-card-child:nth-child(8) {
+    box-shadow: none;
+  }
+  .career-card-child:nth-child(7) {
+    border-left: none;
+  }
+  .career-card-child:nth-child(9) {
+    border-left: none;
+  }
+  .career-card-child:nth-child(11) {
+    border-bottom: 1px solid #3333 !important;
+  }
+  .career-card-child:nth-child(12) {
+    border-bottom: 1px solid #3333 !important;
+  }
+  .career-card-child:nth-child(13) {
+    border-left: none;
+    border-bottom: 1px solid #3333 !important;
+  }
+  .career-card-child:nth-child(14) {
+    border-bottom: 1px solid #3333 !important;
+  }
+  .career-card-child:nth-child(15) {
+    border-left: none;
+    border-right: 1px solid #3333 !important;
+    border-bottom: 1px solid #3333 !important;
+  }
+
+  .career-card-child:last-child {
+    border-bottom: 1px solid #3333;
+  }
+}
+
+/* course */
+
+.course-bg {
+  background: #fff;
+}
+.course-bg > ul > li:hover {
+  background: #f2f2f2;
+}
+
+.course-items {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.course-items img {
+  width: 60px;
+  height: 60px;
+}
+
+.course-items a {
+  font-size: 14px;
+}
+
+@media (max-width: 749px) {
+  .wm-table-content ul li {
+    display: block !important;
+    width: 100% !important;
+  }
+}
+
+/* footer */
+
+.custom-footer-links {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 749px) {
+  .wm-footer-widget {
+    display: none;
+  }
+  .wm-footer-newslatter form input[type="submit"] {
+    float: left;
+    margin-top: 1rem;
+  }
+  .wm-copyright {
+    background: #47d3a0;
+  }
+  .custom-footer-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+  .custom-footer-links a {
+    border-left: 1px solid #fff;
+    color: #fff;
+  }
+  .custom-footer-links a:nth-child(1) {
+    border-left: none;
+  }
+  .custom-footer-links a:nth-child(3) {
+    border-left: none;
+  }
+  .custom-footer-links a:nth-child(5) {
+    border-left: none;
+  }
+}
+
+/* slider */
+
+@media (max-width: 749px) {
+  .slick-list {
+    height: 215px !important;
+  }
+  .wm-banner-one-for-layer img {
+    height: auto !important;
+  }
+  .wm-banner-one,
+  .wm-main-banner {
+    height: auto !important;
+  }
+  .wm-banner-one-nav-layer {
+    /* padding: 46px 70px 50px 70px; */
+  }
+  .wm-main-content {
+    padding: 40px 0px 60px 0px;
+  }
+  .wm-banner-one .slick-arrow {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .wm-box-service ul li {
+    width: 50% !important;
+  }
+}
+
+/* course */
+
+.course-card {
+  background: #fff;
+  box-shadow: 0 5px 16px -4px rgba(29, 51, 59, 0.08),
+    0 5px 16px 1px rgba(29, 51, 59, 0.04);
+}
+.course-title {
+  width: 100%;
+}
+
+.course-card-img {
+  width: 60px;
+  height: 60px;
+}
+
+.flatpickr-calendar.inline {
+  display: block;
+  position: relative;
+  top: 2px;
+  right: 24px;
+  box-shadow: none;
+}
+
+.colledge-card:hover .overlay {
+  background: rgba(0, 0, 0, 0.8);
+}
